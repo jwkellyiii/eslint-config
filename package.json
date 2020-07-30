@@ -1,0 +1,38 @@
+{
+  "name": "@jwkellyiii/eslint-config",
+  "version": "0.1.0",
+  "description": "A shared ESLint config with opinions about code style",
+  "scripts": {
+    "pretest": "eslint ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwkellyiii/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "code",
+    "style"
+  ],
+  "author": "John Kelly <jwkellyiii@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwkellyiii/eslint-config/issues"
+  },
+  "homepage": "https://github.com/jwkellyiii/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.21.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^2.5.1"
+  }
+}
