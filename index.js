@@ -11,7 +11,7 @@ module.exports = {
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2020,
     sourceType: 'module',
   },
   rules: {
@@ -20,7 +20,7 @@ module.exports = {
     }],
     "max-len": [2, 100, {
       "ignoreTemplateLiterals": false,
-      "ignoreUrls": true 
+      "ignoreUrls": true
     }],
   },
 };

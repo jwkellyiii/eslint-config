@@ -1,6 +1,6 @@
 {
   "name": "@jwkellyiii/eslint-config",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A shared ESLint config with opinions about code style",
   "scripts": {
     "pretest": "eslint ./",
@@ -22,17 +22,17 @@
   },
   "homepage": "https://github.com/jwkellyiii/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^7.5.0"
+    "eslint": "^7.11.0"
   },
   "peerDependencies": {
-    "eslint": "^7.5.0"
+    "eslint": "^7.11.0"
   },
   "dependencies": {
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.20.5",
-    "eslint-plugin-react-hooks": "^4.0.8"
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
