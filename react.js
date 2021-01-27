@@ -1,9 +1,11 @@
 module.exports = {
   extends: [
     './index.js',
-    'plugin:react/recommended',
     'airbnb',
+    'plugin:react/recommended',
     'plugin:jsx-a11y/recommended',
+    'prettier',
+    'prettier/react',
   ],
   env: {
     browser: true,
@@ -12,6 +14,7 @@ module.exports = {
   plugins: [
     'react',
     'jsx-a11y',
+    'prettier'
   ],
   parserOptions: {
     ecmaFeatures: {

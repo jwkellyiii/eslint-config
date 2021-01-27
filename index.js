@@ -22,5 +22,12 @@ module.exports = {
       "ignoreTemplateLiterals": false,
       "ignoreUrls": true
     }],
+    "prettier/prettier": [
+      "error", {
+        singleQuote: true,
+        // printWidth: 100,
+        trailingComma: "es5",
+      }
+    ]
   },
 };

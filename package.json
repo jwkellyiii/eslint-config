@@ -1,6 +1,6 @@
 {
   "name": "@jwkellyiii/eslint-config",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A shared ESLint config with opinions about code style",
   "scripts": {
     "pretest": "eslint ./",
@@ -22,17 +22,24 @@
   },
   "homepage": "https://github.com/jwkellyiii/eslint-config#readme",
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1",
+    "prettier-eslint": "^12.0.0"
   },
   "peerDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier-eslint": "^12.0.0"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
